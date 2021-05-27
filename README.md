@@ -17,7 +17,7 @@ Training occurs using 500 unique images of mountains found by scraping google im
 - "Snowy mountains"
 
 From such queries, a heterogeneous dataset of mountainous images varying in color, geometry, and viewpoint was assembled.
-The thumbnails of each image were manually checked to ensure that a mountainous landscape was being portrayed. After this quality check, only 479 images were deemed suitable. I decided to double the number of images by mirroring all 479 images and saving their copies. However, it is better to get additional 479 unique images instead of utilizing mirrored copies to double the dataset, thereby improving the quality of the training set.
+The thumbnails of each image were manually checked to ensure that a mountainous landscape was being portrayed. After this quality check, only 479 images were deemed suitable. I decided to double the number of images by mirroring all 479 images and saving their copies. However, it is better to get additional 479 unique images instead of utilizing mirrored copies to double the dataset, thereby improving the quality of the training set. The training dataset can be found in the "resizedImages.zip" file.
 
 ## Mode Collapse
 
