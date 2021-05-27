@@ -45,6 +45,6 @@ The following observations were arrived upon after running multiple training run
 
 ## Next Steps
 
-Limitations to training included not being able to use larger batch sizes or to generate higher resolution images due to the limitation of VRAM on my laptop's graphics card (NVIDIA GTX 1060 - 6GB VRAM). Therefore, I plan to do further experimentation on achieving better quality of outputs using Google Colab (cloud-based Jupyter Notebooks Python environment) where much better hardware is available for computing.
+While all training runs were GPU-computed,limitations to training included not being able to use larger batch sizes or to generate higher resolution images due to the limitation of VRAM on my laptop's graphics card (NVIDIA GTX 1060 - 6GB VRAM). Therefore, I plan to do further experimentation on achieving better quality of outputs using Google Colab (cloud-based Jupyter Notebooks Python environment) where much better hardware is available for computing.
 
 Such ideas on further experimentation include further manipulation of learning rate, momentum values, bigger and more qualitative dataset and the labelling of data.
