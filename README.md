@@ -36,15 +36,15 @@ The following observations were arrived upon after running multiple training run
 2.  Smaller batches lead to greater number of epochs to be required as the solutions tend to fluctuate quite a bit from epoch to epoch
 3.  Seed size has no effect on time per epoch
 4.  High seed size reduces mode collapse
-5.  Higher seed size requires more VRAM
+5.  Higher seed size (4000+) requires more VRAM
 
 6.  Having low number of batches (ie. say less than 17ish) makes Mode Collapse occur much sooner
-7.  How low seed size makes Mode Collapse occur much sooner
-8.  Pausing discriminator training to every other epoch can help the generator be more open to "exploring diverse solutions", thereby delaying Mode Collapse
-9.  Training for higher res image output tends to Mode Collapse sooner
+7.  Low seed size (<100) makes Mode Collapse occur much sooner
+8.  Training the discriminator every other epoch while the generator trains every epoch can help the generator be more open to "exploring diverse solutions", thereby delaying Mode Collapse
+9.  Training for higher res image output leads to the onset of Mode Collapse sooner (less epochs to Mode Collapse)
 
 ## Next Steps
 
-While all training runs were GPU-computed,limitations to training included not being able to use larger batch sizes or to generate higher resolution images due to the limitation of VRAM on my laptop's graphics card (NVIDIA GTX 1060 - 6GB VRAM). Therefore, I plan to do further experimentation on achieving better quality of outputs using Google Colab (cloud-based Jupyter Notebooks Python environment) where much better hardware is available for computing.
+While all training runs were GPU-computed, limitations to training included not being able to use larger batch sizes or to generate higher resolution images due to the limitation of VRAM on my laptop's graphics card (NVIDIA GTX 1060 - 6GB VRAM). Therefore, I plan to do further experimentation on achieving better quality of outputs using Google Colab (cloud-based Jupyter Notebooks Python environment) where much better hardware is available for computing.
 
-Such ideas on further experimentation include further manipulation of learning rate, momentum values, bigger and more qualitative dataset and the labelling of data.
+Ideas on further experimentation include further manipulation of learning rate, momentum values, bigger and more qualitative dataset and the labelling of data.
