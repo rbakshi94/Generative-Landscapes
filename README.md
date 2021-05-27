@@ -2,7 +2,7 @@
 
 This project seeks to explore GANs (Generative Adversarial Networks) where the model is trained to create randomized mountainous landscape imagery.
 
-See the images below deemed to be some of the better-looking outputs across various training runs.
+See the images below deemed to be some of the better-looking outputs across various training runs. All image outputs are of 160 X 160 px resolution.
 ![Good Quality images](GoodOutputs.png)
 
 ## Training
